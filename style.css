@@ -1,4 +1,4 @@
-p.quote { font-family: "Pudelinka", cursive;}
+
 body {
 	background: linear-gradient(to bottom, #ffffff, #e0f7ff);
 	margin-left: 20%;
@@ -35,3 +35,4 @@ body {
 	height: 100%;
 	z-index: -1;
 }
+p.quote { font-family: "Pudelinka", cursive;}
