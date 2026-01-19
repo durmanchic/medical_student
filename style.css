@@ -1,51 +1,23 @@
-@font-face {
-	font-family: "Pudelinka";
-	src: url("Fonts/pudelinka.ttf") format("truetype");
-	font-weight: normal;
-	font-style: normal;
-}
-
 body {
-	/* Градиент от белого к нежно-голубому */
 	background: linear-gradient(to bottom, #ffffff, #e0f7ff);
-	
-	/* Убираем старый цвет фона */
-	/* background-color: #d2b48c; — больше не нужен */
-
 	margin-left: 20%;
 	margin-right: 20%;
 	border: 2px dotted black;
 	padding: 10px;
 	font-family: sans-serif;
-
-	/* Чтобы снежинки не мешали прокрутке */
 	position: relative;
 	min-height: 100vh;
 	overflow-x: hidden;
 }
 
-blockquote.q {
-	color: #D4AF37;
-	border-left: 4px solid #8B0000;
-	font-style: italic;
-}
-
-p.quote {
-	font-family: "Pudelinka", cursive;
-}
-
-/* СНЕЖИНКИ НА ФОНЕ */
 @keyframes fall {
-	to {
-		transform: translateY(100vh) rotate(360deg);
-	}
+	to { transform: translateY(100vh) rotate(360deg); }
 }
 
 .snowflake {
 	position: absolute;
 	top: -20px;
 	color: #fff;
-	font-size: 24px;
 	text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 	animation: fall 8s infinite linear;
 	opacity: 0.8;
@@ -53,7 +25,6 @@ p.quote {
 	user-select: none;
 }
 
-/* Генерация снежинок через JavaScript */
 #snow-container {
 	pointer-events: none;
 	position: fixed;
