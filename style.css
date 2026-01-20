@@ -6,17 +6,32 @@
 }
 
 body {
-	background: linear-gradient(to bottom, #ffffff, #e0f7ff);
+	/* Новый градиент: почти белый → светло-голубой → нежно-синий */
+	background: linear-gradient(to bottom, #f9fcff 0%, #d0f0ff 40%, #a8d8ff 100%);
 	margin-left: 20%;
 	margin-right: 20%;
-	border: 2px dotted black;
-	padding: 10px;
+	border: 2px dotted #6ca0d8; /* чуть мягче, чем чёрный */
+	padding: 15px;
 	font-family: "Pudelinka", cursive;
 	position: relative;
 	min-height: 100vh;
 	overflow-x: hidden;
+	color: #1a3a5f; /* чуть тёмнее для лучшей читаемости */
 }
 
+/* Заголовки — с лёгким акцентом */
+h2 {
+	color: #2c5a8c;
+	border-bottom: 1px dashed #a8d8ff;
+	padding-bottom: 4px;
+	margin-top: 1.8em;
+}
+
+h3 {
+	color: #3a6fa8;
+}
+
+/* Анимация падения снежинок */
 @keyframes fall {
 	to { 
 		transform: translateY(100vh) rotate(360deg); 
@@ -26,12 +41,13 @@ body {
 .snowflake {
 	position: absolute;
 	top: -20px;
-	color: #fff;
-	text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+	color: #ffffff;
+	text-shadow: 0 0 6px rgba(255, 255, 255, 0.9), 0 0 12px rgba(173, 216, 230, 0.6);
 	animation: fall 8s infinite linear;
-	opacity: 0.8;
+	opacity: 0.85;
 	z-index: -1;
 	user-select: none;
+	font-size: 1.2em;
 }
 
 #snow-container {
@@ -46,19 +62,21 @@ body {
 
 p.quote {
 	font-family: "Pudelinka", cursive;
+	font-style: italic;
+	color: #2c5a8c;
 }
 
 /* Стили для задания по информатике (RSA) */
 .rsa-task {
 	margin: 2em 0;
 	padding: 1.4em;
-	background: linear-gradient(to bottom, #ffffff, #f0f8ff);
+	background: linear-gradient(to bottom, #ffffff, #e6f4ff);
 	border-radius: 12px;
 	font-family: 'Pudelinka', cursive;
 	color: #2c3e50;
 	line-height: 1.6;
-	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-	border: 1px solid #dbeaff;
+	box-shadow: 0 3px 12px rgba(106, 160, 216, 0.15);
+	border: 1px solid #c2e0ff;
 }
 
 .rsa-n {
@@ -66,15 +84,27 @@ p.quote {
 	width: 100%;
 	padding: 14px;
 	margin: 14px 0;
-	background-color: #f9fbff;
-	border: 1px solid #d1e7ff;
+	background-color: #f0f9ff;
+	border: 1px solid #b3daff;
 	border-radius: 8px;
 	font-family: monospace;
 	font-size: 14px;
 	white-space: pre-wrap;
 	word-wrap: break-word;
-	color: #222;
+	color: #1a3a5f;
 	line-height: 1.4;
 	overflow-x: auto;
 	tab-size: 4;
+}
+
+/* Ссылки — в тон зимней теме */
+a {
+	color: #2c5a8c;
+	text-decoration: none;
+	border-bottom: 1px dotted #8abbe6;
+}
+
+a:hover {
+	color: #1a3a5f;
+	border-bottom-style: solid;
 }
