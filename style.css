@@ -18,7 +18,9 @@ body {
 }
 
 @keyframes fall {
-	to { transform: translateY(100vh) rotate(360deg); }
+	to { 
+		transform: translateY(100vh) rotate(360deg); 
+	}
 }
 
 .snowflake {
@@ -45,27 +47,34 @@ body {
 p.quote {
 	font-family: "Pudelinka", cursive;
 }
+
+/* Стили для задания по информатике (RSA) */
 .rsa-task {
-  margin: 2em 0;
-  padding: 1.2em;
-  background: linear-gradient(to bottom, #ffffff, #f0f8ff);
-  border-radius: 10px;
-  font-family: 'Pudelinka', Arial, sans-serif;
-  color: #2c3e50;
-  line-height: 1.6;
+	margin: 2em 0;
+	padding: 1.4em;
+	background: linear-gradient(to bottom, #ffffff, #f0f8ff);
+	border-radius: 12px;
+	font-family: 'Pudelinka', cursive;
+	color: #2c3e50;
+	line-height: 1.6;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+	border: 1px solid #dbeaff;
 }
 
 .rsa-n {
-  display: block;
-  width: 100%;
-  padding: 12px;
-  margin: 12px 0;
-  background-color: #f9fbff;
-  border: 1px solid #d1e7ff;
-  border-radius: 6px;
-  font-family: monospace;
-  font-size: 14px;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  color: #222;
+	display: block;
+	width: 100%;
+	padding: 14px;
+	margin: 14px 0;
+	background-color: #f9fbff;
+	border: 1px solid #d1e7ff;
+	border-radius: 8px;
+	font-family: monospace;
+	font-size: 14px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	color: #222;
+	line-height: 1.4;
+	overflow-x: auto;
+	tab-size: 4;
 }
