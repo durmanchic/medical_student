@@ -1,14 +1,3 @@
-Вот полный обновленный код для вашего файла `index.html`.
-
-**Что я сделал:**
-1.  Добавил новую запись в самый верх списка (сразу после контактной ссылки), так как это самое свежее событие.
-2.  Указал сегодняшнюю дату: **20 января 2026 года** (логически продолжая хронологию ваших записей после шифров и RSA).
-3.  Вставил блок с результатом работы чат-бота, где показано, что он ошибся (выбрал гарантию вместо оплаты), и добавлен соответствующий вывод.
-4.  Сохранил все ваши стили и предыдущие записи без изменений.
-
-Вы можете полностью заменить содержимое вашего файла на этот код:
-
-```html
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -79,6 +68,83 @@
         .pudelinka-link {
             font-family: "Pudelinka", cursive !important;
         }
+        /* === НОВЫЕ СТИЛИ ДЛЯ ЛИНЕЙНОЙ РЕГРЕССИИ === */
+        .regression-entry {
+            background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+            border-left-color: #9c27b0;
+        }
+        .regression-entry .equation {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-family: 'Courier New', monospace;
+            font-size: 1.1em;
+            margin: 15px 0;
+            font-weight: 500;
+        }
+        .regression-entry .metrics-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin: 20px 0;
+        }
+        .regression-entry .metric-mini {
+            background: white;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            border: 2px solid #9c27b0;
+        }
+        .regression-entry .metric-mini .value {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #9c27b0;
+        }
+        .regression-entry .metric-mini .label {
+            font-size: 0.85em;
+            color: #666;
+            margin-top: 3px;
+        }
+        .regression-entry table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 0.95em;
+        }
+        .regression-entry th,
+        .regression-entry td {
+            padding: 10px 8px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        .regression-entry th {
+            background: #9c27b0;
+            color: white;
+            font-weight: 600;
+        }
+        .regression-entry tr:hover {
+            background: #f8f4ff;
+        }
+        .regression-entry .highlight {
+            background: #e8f5e9;
+            border: 2px solid #4caf50;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            margin: 15px 0;
+        }
+        .regression-entry .highlight .big-number {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #2e7d32;
+        }
+        @media (max-width: 600px) {
+            .regression-entry .metrics-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
@@ -89,8 +155,67 @@
     <!-- Контактная ссылка по заданию - ТОЛЬКО ЗДЕСЬ ШРИФТ PUDELINKA -->
     <p class="pudelinka-link"><a href="mailto:durmanova_diana@mail.ru">Напишите мне</a></p>
 
-    <!-- ========== НОВАЯ ЗАПИСЬ: ТЕСТ ЧАТ-БОТА (САМАЯ СВЕЖАЯ) ========== -->
+    <!-- ========== НОВАЯ ЗАПИСЬ: ЛИНЕЙНАЯ РЕГРЕССИЯ (САМАЯ СВЕЖАЯ) ========== -->
     
+    <div class="cv-entry regression-entry">
+        <div class="date-badge">14 марта 2026</div>
+        <h2>📊 Линейная регрессия: прогноз точности анализа</h2>
+        
+        <p><strong>Цель:</strong> Построить модель, которая прогнозирует точность анализа по количеству часов практики.</p>
+        
+        <p><strong>Данные:</strong> Столбцы «Часы» и «Точность» из файла <code>task_regression2.csv</code></p>
+        
+        <div class="equation">
+            Точность = 4.56 × Часы + 53.63
+        </div>
+        
+        <p><strong>📝 Интерпретация:</strong></p>
+        <ul style="margin: 10px 0 15px 25px;">
+            <li>Базовая точность (0 часов практики): <strong>53.63%</strong></li>
+            <li>Каждый дополнительный час добавляет <strong>+4.56%</strong> к точности</li>
+        </ul>
+        
+        <div class="metrics-grid">
+            <div class="metric-mini">
+                <div class="value">0.63</div>
+                <div class="label">Средняя ошибка (MAE)</div>
+            </div>
+            <div class="metric-mini">
+                <div class="value">99.18%</div>
+                <div class="label">Прогноз на 10 часов</div>
+            </div>
+        </div>
+        
+        <p><strong>📋 Примеры прогнозов:</strong></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Часы</th>
+                    <th>Точность</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1.5 ч</td><td><strong>60.5%</strong></td></tr>
+                <tr><td>3.0 ч</td><td><strong>67.3%</strong></td></tr>
+                <tr><td>5.0 ч</td><td><strong>76.4%</strong></td></tr>
+                <tr><td>7.0 ч</td><td><strong>85.5%</strong></td></tr>
+                <tr><td>10.0 ч</td><td><strong>99.2%</strong></td></tr>
+            </tbody>
+        </table>
+        
+        <div class="highlight">
+            🎯 После <strong>10 часов</strong> практики прогнозируемая точность:<br>
+            <span class="big-number">99.18%</span>
+        </div>
+        
+        <p style="text-align: center; color: #666; font-size: 0.9em; margin-top: 20px;">
+            Построено на Python • scikit-learn • Линейная регрессия
+        </p>
+    </div>
+
+    <!-- ========== ПРЕДЫДУЩИЕ ЗАПИСИ (БЕЗ ИЗМЕНЕНИЙ) ========== -->
+
+    <!-- ЗАПИСЬ: ТЕСТ ЧАТ-БОТА -->
     <div class="ai-entry ai-error">
         <div class="date-badge">20 января 2026</div>
         <h2>Задание с чат ботом </h2>
@@ -125,7 +250,7 @@
     <h2>15 октября, 2025</h2>
     <p>
         Я сделала Новогодние кроссворды для сайта 
-        <a href="https://kmlmmha.github.io/dem.github.io/  " title="Блог моего друга">моего друга</a>.
+        <a href="https://kmlmmha.github.io/dem.github.io/    " title="Блог моего друга">моего друга</a>.
     </p>
 
     <!-- 2 декабря 2025 -->
@@ -149,7 +274,7 @@
     <p class="quote">
         Сегодня я разобрала структуру доменного имени моего сайта.
         Мой сайт размещён на платформе GitHub Pages, и его адрес выглядит так:
-        <code>https://durmanchic.github.io/medical_student/  </code>.
+        <code>https://durmanchic.github.io/medical_student/    </code>.
     </p>
     <p>
         Доменное имя этого адреса — <strong><code>durmanchic.github.io</code></strong> — состоит из нескольких уровней иерархии DNS (системы доменных имён):
@@ -190,7 +315,7 @@
       <p><em>Примечание: в учебном примере использовались маленькие числа (p=3, q=5), но в реальных системах — такие огромные ключи для защиты данных.</em></p>
     </div>
 
-    <!-- ========== ЗАПИСИ ОТ 14 ФЕВРАЛЯ 2026 (САМЫЕ НОВЫЕ) ========== -->
+    <!-- ========== ЗАПИСИ ОТ 14 ФЕВРАЛЯ 2026 ========== -->
 
     <!-- ЗАПИСЬ 1: СОБАКА ФЕЛЯ -->
     <div class="cv-entry">
@@ -234,7 +359,7 @@
     <!-- Иконки (в самом низу) -->
     <p>Иконки:</p>
     <p>
-        <a href="https://www.flaticon.com/ru/free-icons/  " title="олень иконки">
+        <a href="https://www.flaticon.com/ru/free-icons/    " title="олень иконки">
             Олень иконки от BomSymbols - Flaticon
         </a>
     </p>
@@ -261,4 +386,3 @@
 
 </body>
 </html>
-```
