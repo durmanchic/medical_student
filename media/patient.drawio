@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="6kCQJK2iiEv8xOHuOEnT">
+    <mxGraphModel dx="1373" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-31" edge="1" parent="1" source="JaG9dHE9P_XP_o6Ej_PX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;curved=0;" target="JaG9dHE9P_XP_o6Ej_PX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Волков&lt;/div&gt;&lt;div&gt;Павел&lt;br&gt;Александрович&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="90" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="г. Москва Ростовская 23" vertex="1">
+          <mxGeometry height="60" width="100" x="210" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-32" edge="1" parent="1" source="JaG9dHE9P_XP_o6Ej_PX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" target="JaG9dHE9P_XP_o6Ej_PX-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Шишкин&lt;/div&gt;&lt;div&gt;Иван&lt;/div&gt;&lt;div&gt;Владимирович&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="540" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Удаление камней в почках" vertex="1">
+          <mxGeometry height="60" width="100" x="140" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="противоспали-тельное средство" vertex="1">
+          <mxGeometry height="60" width="100" x="240" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;мочеиспускание&lt;/div&gt;&lt;div&gt;с кровью&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="340" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="удаление камней в почках" vertex="1">
+          <mxGeometry height="60" width="100" x="590" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="04.04.24" vertex="1">
+          <mxGeometry height="60" width="100" x="490" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="15" vertex="1">
+          <mxGeometry height="60" width="100" x="440" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="700987" vertex="1">
+          <mxGeometry height="60" width="100" x="20" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="04.04.24" vertex="1">
+          <mxGeometry height="60" width="100" x="40" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="700" vertex="1">
+          <mxGeometry height="60" width="100" x="310" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Шишкин&lt;/div&gt;&lt;div&gt;Иван&lt;/div&gt;&lt;div&gt;Владимирович&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="210" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="15" vertex="1">
+          <mxGeometry height="60" width="100" x="110" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-41" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="400" as="sourcePoint" />
+            <mxPoint x="210" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Волков&lt;/div&gt;&lt;div&gt;Павел&lt;br&gt;Александрович&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="90" x="580" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="г. Москва Ростовская 23" vertex="1">
+          <mxGeometry height="60" width="100" x="670" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="700987" vertex="1">
+          <mxGeometry height="60" width="100" x="480" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="700" vertex="1">
+          <mxGeometry height="60" width="100" x="770" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="JaG9dHE9P_XP_o6Ej_PX-48" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589" y="290" as="sourcePoint" />
+            <mxPoint x="589" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
